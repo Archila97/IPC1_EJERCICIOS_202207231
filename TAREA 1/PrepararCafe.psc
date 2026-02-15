@@ -1,4 +1,4 @@
-Algoritmo PrepararCafé 	//202207231 Jenifer Archila, sección F
+Algoritmo PrepararCafÃ© 	//202207231 Jenifer Archila, secciÃ³n F
 	Definir tipoCafe Como Caracter;
 	Definir tazaCafe Como Entero;
 	
@@ -6,7 +6,7 @@ Algoritmo PrepararCafé 	//202207231 Jenifer Archila, sección F
 	Leer tazaCafe;
 	
 	Si tazaCafe > 0 & tazaCafe <= 10 Entonces
-		Escribir "Seleccionar tipo de Café ";
+		Escribir "Seleccionar tipo de CafÃ© ";
 		Escribir "Instantaneo o Hervido";
 		Leer tipoCafe;
 		
@@ -17,25 +17,25 @@ Algoritmo PrepararCafé 	//202207231 Jenifer Archila, sección F
 			Escribir "Hervir agua";
 			Escribir "Apagar estufa";
 			Escribir "Seleccionar taza";
-			Escribir "Colocar café en la taza";
+			Escribir "Colocar cafÃ© en la taza";
 			Escribir "Servir agua hervida en la taza";
-			Escribir "Revolver café";
-			Escribir "Tomar café";	
+			Escribir "Revolver cafÃ©";
+			Escribir "Tomar cafÃ©";	
 		SiNo
 			Si tipoCafe = "Hervido" Entonces
 				Escribir "Preparar la cafetera";
 				Escribir "Llenar la cafetera";
-				Escribir "Colocar café";
+				Escribir "Colocar cafÃ©";
 				Escribir "Encender cafetera";
 				Escribir "Esperar";
-				Escribir "Servir café";
-				Escribir "Tomar café";	
+				Escribir "Servir cafÃ©";
+				Escribir "Tomar cafÃ©";	
 			SiNo
-				Escribir "Tipo de café inválido";
+				Escribir "Tipo de cafÃ© invÃ¡lido";
 			Fin Si
 			
 		Fin Si
 	SiNo
-		Escribir "Cantidad inválida";
+		Escribir "Cantidad invÃ¡lida";
 	Fin Si
 FinAlgoritmo
